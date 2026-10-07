@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ks om ia3x</title>
+    <title>Bom Menu</title>
     <style>
 :root {
   --ui-font-family:
@@ -30,31 +30,31 @@
   --menu-radius: calc(0.85 * var(--vh-u, 10.8px));
   --theme-tab-active: linear-gradient(
     to right,
-    #0c0c0c 0%,
-    #161616 18%,
-    rgb(46, 46, 46) 50%,
-    #161616 82%,
-    #0c0c0c 100%
+    #1a0000 0%,
+    #330000 18%,
+    #cc0000 50%,
+    #330000 82%,
+    #1a0000 100%
   );
-  --selection-bg: rgba(145, 145, 145, 0.2);
-  --accent-color: #919191;
-  --theme-highlight: #919191;
-  --theme-accent: #919191;
-  --ui-edge-glow: rgba(145, 145, 145, 0.55);
+  --selection-bg: rgba(255, 51, 51, 0.2);
+  --accent-color: #ff3333;
+  --theme-highlight: #ff3333;
+  --theme-accent: #ff3333;
+  --ui-edge-glow: rgba(255, 51, 51, 0.55);
   --ui-shadow-h:
-    inset 0 calc(0.12 * var(--vh-u, 10.8px)) 0 0 var(--accent-color, #919191),
-    inset 0 calc(-0.12 * var(--vh-u, 10.8px)) 0 0 var(--accent-color, #919191);
+    inset 0 calc(0.12 * var(--vh-u, 10.8px)) 0 0 var(--accent-color, #ff3333),
+    inset 0 calc(-0.12 * var(--vh-u, 10.8px)) 0 0 var(--accent-color, #ff3333);
   --ui-chrome-inset:
     inset 0 calc(0.1 * var(--vh-u, 10.8px)) 0 0
-      var(--ui-chrome-inset-top, rgba(192, 192, 192, 0.55)),
+      var(--ui-chrome-inset-top, rgba(255, 102, 102, 0.55)),
     inset 0 calc(-0.08 * var(--vh-u, 10.8px)) 0 0 rgba(0, 0, 0, 0.55);
   --ui-shadow-v:
     0 0 calc(0.08 * var(--vh-u, 10.8px)) 0
-      var(--scrollbar-shadow-strong, var(--accent-color, #919191)),
+      var(--scrollbar-shadow-strong, var(--accent-color, #ff3333)),
     0 0 calc(0.16 * var(--vh-u, 10.8px)) 0
-      var(--scrollbar-shadow-mid, var(--accent-color, #919191)),
+      var(--scrollbar-shadow-mid, var(--accent-color, #ff3333)),
     0 0 calc(0.28 * var(--vh-u, 10.8px)) 0
-      var(--scrollbar-shadow-outer, var(--accent-color, #919191));
+      var(--scrollbar-shadow-outer, var(--accent-color, #ff3333));
 }
 html,
 body,
@@ -96,8 +96,8 @@ body,
 }
 .menu-wrapper.svelte-1ysny0v.svelte-1ysny0v {
   position: absolute;
-  top: calc(35 * var(--vh-u, 10.8px));
-  left: calc(20.5 * var(--vh-u, 10.8px));
+  top: calc(42 * var(--vh-u, 10.8px));
+  left: calc(28 * var(--vh-u, 10.8px));
   display: flex;
   gap: 0;
   align-items: flex-start;
@@ -153,11 +153,11 @@ body,
 }
 .scrollbar-arrow-up.svelte-1ysny0v.svelte-1ysny0v:before {
   border-bottom: calc(0.24 * var(--vh-u, 10.8px)) solid
-    var(--ui-accent-fill, var(--accent-color, #c0c0c0));
+    var(--ui-accent-fill, var(--accent-color, #ff6666));
 }
 .scrollbar-arrow-down.svelte-1ysny0v.svelte-1ysny0v:before {
   border-top: calc(0.24 * var(--vh-u, 10.8px)) solid
-    var(--ui-accent-fill, var(--accent-color, #c0c0c0));
+    var(--ui-accent-fill, var(--accent-color, #ff6666));
 }
 .scrollbar-track.svelte-1ysny0v.svelte-1ysny0v {
   flex: 1 1 auto;
@@ -172,7 +172,7 @@ body,
 .scrollbar-thumb.svelte-1ysny0v.svelte-1ysny0v {
   background: var(
     --ui-accent-fill,
-    var(--accent-color, var(--theme-highlight, #c0c0c0))
+    var(--accent-color, var(--theme-highlight, #ff6666))
   );
   width: 100%;
   left: 0;
@@ -236,9 +236,9 @@ body,
   z-index: 2;
   box-shadow:
     inset 0 calc(0.12 * var(--vh-u, 10.8px)) 0 0
-      var(--accent-color, var(--theme-highlight, #00bfff)),
+      var(--accent-color, var(--theme-highlight, #ff3333)),
     inset 0 calc(-0.12 * var(--vh-u, 10.8px)) 0 0
-      var(--accent-color, var(--theme-highlight, #00bfff));
+      var(--accent-color, var(--theme-highlight, #ff3333));
   transition:
     transform 0.15s cubic-bezier(0.4, 0, 0.2, 1),
     height 0.15s cubic-bezier(0.4, 0, 0.2, 1);
@@ -264,7 +264,7 @@ body,
   transform: translateY(-50%);
   z-index: 1000;
   background: linear-gradient(135deg, #000000f0, #1a1a1af0);
-  border: calc(0.2 * var(--vh-u, 10.8px)) solid var(--accent-color, #e74c3c);
+  border: calc(0.2 * var(--vh-u, 10.8px)) solid var(--accent-color, #ff3333);
   border-radius: calc(1 * var(--vh-u, 10.8px));
   padding: calc(1.5 * var(--vh-u, 10.8px));
   box-shadow: 0 calc(1 * var(--vh-u, 10.8px)) calc(3 * var(--vh-u, 10.8px))
@@ -273,7 +273,7 @@ body,
   max-height: calc(35 * var(--vh-u, 10.8px));
 }
 .image-display-title.svelte-1ysny0v.svelte-1ysny0v {
-  color: var(--accent-color, #e74c3c);
+  color: var(--accent-color, #ff3333);
   font-size: calc(1.2 * var(--vh-u, 10.8px));
   font-weight: 700;
   text-align: center;
@@ -364,7 +364,7 @@ body,
   height: calc(0.14 * var(--vh-u, 10.8px));
   min-height: 1px;
   flex-shrink: 0;
-  background: var(--accent-color, #c0c0c0);
+  background: var(--accent-color, #ff6666);
   margin: 0;
   padding: 0;
   border: none;
@@ -376,7 +376,7 @@ body,
   z-index: 3;
   box-shadow:
     0 calc(0.14 * var(--vh-u, 10.8px)) calc(0.38 * var(--vh-u, 10.8px)) 0
-      var(--tab-bottom-glow, var(--ui-edge-glow, rgba(192, 192, 192, 0.5))),
+      var(--tab-bottom-glow, var(--ui-edge-glow, rgba(255, 102, 102, 0.5))),
     0 calc(0.28 * var(--vh-u, 10.8px)) calc(0.72 * var(--vh-u, 10.8px)) 0
       #00000061;
 }
@@ -565,7 +565,7 @@ body,
 }
 .tab-header-breadcrumb.active.svelte-1ysny0v.svelte-1ysny0v {
   color: #fff;
-  background: var(--theme-tab-active, var(--accent-color, #919191));
+  background: var(--theme-tab-active, var(--accent-color, #ff3333));
   border-radius: 0;
   box-shadow:
     inset 0 1px #000000b8,
@@ -578,7 +578,7 @@ body,
   color: #fff;
 }
 .tab-header.active.svelte-1ysny0v.svelte-1ysny0v {
-  background: var(--theme-tab-active, var(--accent-color, #919191));
+  background: var(--theme-tab-active, var(--accent-color, #ff3333));
   color: #fff;
   font-weight: 700;
   border-radius: 0;
@@ -589,7 +589,7 @@ body,
   box-sizing: border-box;
 }
 .tab-header.active.svelte-1ysny0v.svelte-1ysny0v:hover {
-  background: var(--theme-tab-active, var(--accent-color, #919191));
+  background: var(--theme-tab-active, var(--accent-color, #ff3333));
   color: #fff;
 }
 .tab-header.active.svelte-1ysny0v.svelte-1ysny0v:after {
@@ -609,7 +609,7 @@ body,
   box-shadow: none;
   transition: background 0.2s ease;
   scrollbar-width: thin;
-  scrollbar-color: var(--theme-accent, #919191) rgba(0, 0, 0, 0.3);
+  scrollbar-color: var(--theme-accent, #ff3333) rgba(0, 0, 0, 0.3);
 }
 .menu-content.svelte-1ysny0v.svelte-1ysny0v::-webkit-scrollbar {
   width: calc(0.4 * var(--vh-u, 10.8px));
@@ -619,14 +619,14 @@ body,
   border-radius: calc(0.2 * var(--vh-u, 10.8px));
 }
 .menu-content.svelte-1ysny0v.svelte-1ysny0v::-webkit-scrollbar-thumb {
-  background: var(--theme-accent, #7550b4);
+  background: var(--theme-accent, #ff3333);
   border-radius: calc(0.2 * var(--vh-u, 10.8px));
-  box-shadow: 0 0 calc(0.2 * var(--vh-u, 10.8px)) var(--theme-accent, #7550b4);
+  box-shadow: 0 0 calc(0.2 * var(--vh-u, 10.8px)) var(--theme-accent, #ff3333);
 }
 .menu-content.svelte-1ysny0v.svelte-1ysny0v::-webkit-scrollbar-thumb:hover {
-  background: var(--theme-secondary, #8a6bb8);
+  background: var(--theme-secondary, #ff6666);
   box-shadow: 0 0 calc(0.3 * var(--vh-u, 10.8px))
-    var(--theme-secondary, #8a6bb8);
+    var(--theme-secondary, #ff6666);
 }
 .menu-row-ghost.svelte-1ysny0v.svelte-1ysny0v {
   display: none !important;
@@ -719,7 +719,7 @@ body,
 }
 .menu-icon.svelte-1ysny0v.svelte-1ysny0v {
   font-size: calc(1.46 * var(--vh-u, 10.8px));
-  color: var(--theme-accent, var(--accent-color, #e74c3c));
+  color: var(--theme-accent, var(--accent-color, #ff3333));
   min-width: calc(1.667 * var(--vh-u, 10.8px));
 }
 .menu-category-icon.svelte-1ysny0v.svelte-1ysny0v {
@@ -727,7 +727,7 @@ body,
   align-items: center;
   justify-content: center;
   font-size: calc(1.35 * var(--vh-u, 10.8px));
-  color: var(--theme-accent, var(--accent-color, #00d4ff));
+  color: var(--theme-accent, var(--accent-color, #ff3333));
   width: var(--menu-icon-slot, calc(1.85 * var(--vh-u, 10.8px)));
   min-width: var(--menu-icon-slot, calc(1.85 * var(--vh-u, 10.8px)));
   height: var(--menu-icon-slot, calc(1.85 * var(--vh-u, 10.8px)));
@@ -753,7 +753,7 @@ i.menu-category-icon.fas.svelte-1ysny0v.svelte-1ysny0v {
   -webkit-font-smoothing: antialiased;
 }
 .menu-item.active.svelte-1ysny0v .menu-category-icon.svelte-1ysny0v {
-  color: var(--theme-accent, var(--accent-color, #00d4ff));
+  color: var(--theme-accent, var(--accent-color, #ff3333));
   filter: none;
 }
 .menu-item-leading.svelte-1ysny0v.svelte-1ysny0v {
@@ -833,7 +833,7 @@ i.menu-category-icon.fas.svelte-1ysny0v.svelte-1ysny0v {
   text-shadow: var(--ui-selection-text-shadow);
 }
 .menu-admin-icon.svelte-1ysny0v.svelte-1ysny0v {
-  color: #e74c3c;
+  color: #ff3333;
   font-size: calc(1.16 * var(--vh-u, 10.8px));
   flex-shrink: 0;
   line-height: 1;
@@ -872,7 +872,7 @@ i.menu-category-icon.fas.svelte-1ysny0v.svelte-1ysny0v {
 }
 .toggle-switch.active.svelte-1ysny0v .toggle-knob.svelte-1ysny0v {
   transform: translate(calc(1.72 * var(--vh-u, 10.8px)), -50%);
-  background: var(--theme-accent, var(--accent-color, #e74c3c));
+  background: var(--theme-accent, var(--accent-color, #ff3333));
 }
 .menu-footer-stack.svelte-1ysny0v.svelte-1ysny0v {
   width: 100%;
@@ -1385,7 +1385,7 @@ const X =
   },
   cs = (n) => `calc(${n} * var(--vh-u, ${me}px))`,
   Y = (n) => cs(n),
-  qt = "https://aryamenu.xyz/img/logo.png",
+  qt = "https://i.postimg.cc/L8DVR3Jv/New-Project-(1).webp",
   xt = 220,
   zn = 118,
   Tn = 52,
@@ -1420,7 +1420,7 @@ class ds {
     u(this, "errorEl", null);
     u(this, "cursorEl", null);
     u(this, "cleanupUiScale", null);
-    u(this, "accentColor", "#c0c0c0");
+    u(this, "accentColor", "#ff3333");
     u(this, "keySelectMode", !1);
     u(this, "readyMode", !1);
     u(this, "displayProgress", 0);
@@ -1431,7 +1431,7 @@ class ds {
       visible: !1,
       progress: 0,
       message: "Syncing Discord...",
-      brandName: "Arya Menu",
+      brandName: "Bom Menu",
       discordUsername: "Guest",
       avatarUrl: "",
       logoUrl: qt,
@@ -1444,7 +1444,7 @@ class ds {
     (this.injectStyles(),
       this.createUI(),
       this.setupMessageListener(),
-      this.setAccentColor("#c0c0c0"));
+      this.setAccentColor("#ff3333"));
   }
   injectStyles() {
     if (document.getElementById("loading-ui-styles")) return;
@@ -1453,8 +1453,8 @@ class ds {
       (e.textContent = `
             .loading-scale-layer {
                 --vh-u: ${me}px;
-                --zt-accent: #c0c0c0;
-                --zt-accent-soft: rgba(192, 192, 192, 0.5);
+                --zt-accent: #ff3333;
+                --zt-accent-soft: rgba(255, 51, 51, 0.5);
                 --zt-card: #0a0a0a;
                 --zt-box: rgba(16, 16, 16, 0.94);
                 position: fixed;
@@ -1505,7 +1505,7 @@ class ds {
                 box-sizing: border-box;
                 overflow: hidden;
                 box-shadow:
-                    0 0 0 1px rgba(192, 192, 192, 0.38),
+                    0 0 0 1px rgba(255, 51, 51, 0.38),
                     0 ${Y(0.55)} ${Y(1.8)} rgba(0, 0, 0, 0.55);
             }
 
@@ -1537,7 +1537,7 @@ class ds {
                 backdrop-filter: blur(14px);
                 -webkit-backdrop-filter: blur(14px);
                 box-shadow:
-                    0 0 0 1px rgba(210, 210, 210, 0.22),
+                    0 0 0 1px rgba(255, 51, 51, 0.22),
                     0 10px 32px rgba(0, 0, 0, 0.55),
                     inset 0 1px 0 rgba(255, 255, 255, 0.06);
             }
@@ -1559,7 +1559,7 @@ class ds {
                 backdrop-filter: blur(14px);
                 -webkit-backdrop-filter: blur(14px);
                 box-shadow:
-                    0 0 0 1px rgba(210, 210, 210, 0.22),
+                    0 0 0 1px rgba(255, 51, 51, 0.22),
                     0 10px 32px rgba(0, 0, 0, 0.55),
                     inset 0 1px 0 rgba(255, 255, 255, 0.06);
             }
@@ -1599,7 +1599,7 @@ class ds {
                 height: ${Mn}px;
                 border-radius: 8px;
                 background: linear-gradient(180deg, #141414, #0a0a0a);
-                box-shadow: 0 0 0 1px rgba(210, 210, 210, 0.28);
+                box-shadow: 0 0 0 1px rgba(255, 51, 51, 0.28);
             }
 
             .zt-card.zt-loading .zt-logo-fallback {
@@ -1616,7 +1616,7 @@ class ds {
 
             .zt-card.zt-loading .zt-ring-track {
                 fill: none;
-                stroke: rgba(192, 192, 192, 0.14);
+                stroke: rgba(255, 51, 51, 0.14);
                 stroke-width: 2.2;
             }
 
@@ -1627,7 +1627,7 @@ class ds {
                 stroke-linecap: round;
                 stroke-dasharray: 213.628;
                 stroke-dashoffset: 213.628;
-                filter: drop-shadow(0 0 3px rgba(210, 210, 210, 0.18));
+                filter: drop-shadow(0 0 3px rgba(255, 51, 51, 0.18));
             }
 
             .zt-ring-sheen {
@@ -1698,7 +1698,7 @@ class ds {
                 height: ${Y(2.55)};
                 border-radius: ${Y(0.32)};
                 background: linear-gradient(180deg, #161616, #0b0b0b);
-                box-shadow: 0 0 0 1px rgba(192, 192, 192, 0.42);
+                box-shadow: 0 0 0 1px rgba(255, 51, 51, 0.42);
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -1766,7 +1766,7 @@ class ds {
             .zt-brand-sub {
                 font-family: ${X};
                 font-size: ${Y(0.62)};
-                color: rgba(192, 192, 192, 0.7);
+                color: rgba(255, 51, 51, 0.7);
             }
 
             .zt-ready-right {
@@ -1776,7 +1776,7 @@ class ds {
             .zt-sep {
                 height: 1px;
                 margin: 9px 0 8px;
-                background: rgba(192, 192, 192, 0.35);
+                background: rgba(255, 51, 51, 0.35);
             }
 
             .zt-welcome {
@@ -1784,7 +1784,7 @@ class ds {
                 align-items: center;
                 gap: 9px;
                 background: rgba(14, 14, 14, 0.88);
-                border: 1px solid rgba(192, 192, 192, 0.22);
+                border: 1px solid rgba(255, 51, 51, 0.22);
                 border-radius: 10px;
                 padding: 8px 10px;
                 position: relative;
@@ -1806,19 +1806,19 @@ class ds {
             .zt-welcome-avatar {
                 object-fit: cover;
                 background: rgba(255, 255, 255, 0.06);
-                border: 1px solid rgba(192, 192, 192, 0.35);
+                border: 1px solid rgba(255, 51, 51, 0.35);
             }
 
             .zt-welcome-avatar-fallback {
                 display: none;
                 align-items: center;
                 justify-content: center;
-                background: linear-gradient(145deg, rgba(192, 192, 192, 0.28), rgba(255, 255, 255, 0.06));
+                background: linear-gradient(145deg, rgba(255, 51, 51, 0.28), rgba(255, 255, 255, 0.06));
                 color: #fff;
                 font-family: ${X};
                 font-weight: 700;
                 font-size: ${Y(0.85)};
-                border: 1px solid rgba(192, 192, 192, 0.35);
+                border: 1px solid rgba(255, 51, 51, 0.35);
             }
 
             .zt-welcome-text {
@@ -1839,14 +1839,14 @@ class ds {
             .zt-welcome-sub {
                 font-family: ${X};
                 font-size: 10px;
-                color: rgba(192, 192, 192, 0.68);
+                color: rgba(255, 51, 51, 0.68);
                 margin-top: 2px;
             }
 
             .zt-info {
                 margin-top: 8px;
                 background: rgba(12, 12, 12, 0.9);
-                border: 1px solid rgba(192, 192, 192, 0.18);
+                border: 1px solid rgba(255, 51, 51, 0.18);
                 border-radius: 10px;
                 padding: 7px 10px;
                 min-height: 0;
@@ -1882,7 +1882,7 @@ class ds {
             .zt-info-label {
                 font-family: ${X};
                 font-size: 10px;
-                color: rgba(192, 192, 192, 0.62);
+                color: rgba(255, 51, 51, 0.62);
                 line-height: 1.2;
                 flex-shrink: 0;
             }
@@ -1907,9 +1907,9 @@ class ds {
                 height: 34px;
                 border: 0;
                 border-radius: 10px;
-                background: linear-gradient(180deg, #e8e8e8 0%, #b0b0b0 100%);
-                box-shadow: 0 0 12px rgba(192, 192, 192, 0.22);
-                color: #111;
+                background: linear-gradient(180deg, #ff6666 0%, #cc0000 100%);
+                box-shadow: 0 0 12px rgba(255, 51, 51, 0.22);
+                color: #fff;
                 font-family: ${X};
                 font-size: 12px;
                 font-weight: 700;
@@ -1925,8 +1925,8 @@ class ds {
                 filter: brightness(1.1);
                 transform: translateY(-1px);
                 box-shadow:
-                    0 0 0 2px rgba(255, 255, 255, 0.55),
-                    0 0 ${Y(1.35)} rgba(220, 220, 220, 0.55),
+                    0 0 0 2px rgba(255, 102, 102, 0.55),
+                    0 0 ${Y(1.35)} rgba(255, 51, 51, 0.55),
                     0 ${Y(0.35)} ${Y(1.1)} rgba(0, 0, 0, 0.55),
                     inset 0 0 0 1px rgba(255, 255, 255, 0.35);
             }
@@ -1967,7 +1967,7 @@ class ds {
                 justify-content: center;
                 padding: ${Y(0.35)} ${Y(0.55)};
                 background: rgba(14, 14, 14, 0.94);
-                border: 1px solid rgba(192, 192, 192, 0.35);
+                border: 1px solid rgba(255, 51, 51, 0.35);
                 border-radius: ${Y(0.42)};
                 letter-spacing: 0.03em;
             }
@@ -2008,11 +2008,11 @@ class ds {
       document.head.appendChild(e));
   }
   setAccentColor(e) {
-    const t = "#c0c0c0";
+    const t = "#ff3333";
     this.accentColor = t;
-    const i = "rgba(192, 192, 192, 0.55)",
-      s = "rgba(192, 192, 192, 0.32)",
-      o = "rgba(192, 192, 192, 0.4)",
+    const i = "rgba(255, 51, 51, 0.55)",
+      s = "rgba(255, 51, 51, 0.32)",
+      o = "rgba(255, 51, 51, 0.4)",
       l = (a) => {
         a &&
           (a.style.setProperty("--zt-accent", t),
@@ -2027,11 +2027,11 @@ class ds {
     const t = document.createElement("div");
     t.className = e === "ready" ? "zt-logo-box small" : "zt-logo-box";
     const i = document.createElement("img");
-    ((i.alt = "Arya"), (i.style.display = "none"));
+    ((i.alt = "Bom"), (i.style.display = "none"));
     const s = document.createElement("div");
     return (
       (s.className = "zt-logo-fallback"),
-      (s.textContent = "A"),
+      (s.textContent = "B"),
       (i.onerror = () => {
         ((i.style.display = "none"), (s.style.display = "flex"));
       }),
@@ -2113,12 +2113,12 @@ class ds {
       s.setAttribute("x2", "100%"),
       s.setAttribute("y2", "0%"));
     const o = document.createElementNS("http://www.w3.org/2000/svg", "stop");
-    (o.setAttribute("offset", "0%"), o.setAttribute("stop-color", "#9a9a9a"));
+    (o.setAttribute("offset", "0%"), o.setAttribute("stop-color", "#cc0000"));
     const l = document.createElementNS("http://www.w3.org/2000/svg", "stop");
-    (l.setAttribute("offset", "55%"), l.setAttribute("stop-color", "#f1f1f1"));
+    (l.setAttribute("offset", "55%"), l.setAttribute("stop-color", "#ff6666"));
     const a = document.createElementNS("http://www.w3.org/2000/svg", "stop");
     (a.setAttribute("offset", "100%"),
-      a.setAttribute("stop-color", "#b8b8b8"),
+      a.setAttribute("stop-color", "#ff3333"),
       s.appendChild(o),
       s.appendChild(l),
       s.appendChild(a),
@@ -2166,7 +2166,7 @@ class ds {
       e.appendChild(this.makeProgressRing()),
       (this.loadTitleEl = document.createElement("div")),
       (this.loadTitleEl.className = "zt-load-title"),
-      (this.loadTitleEl.textContent = "ARYA MENU"),
+      (this.loadTitleEl.textContent = "BOM MENU"),
       (this.loadStatusEl = document.createElement("div")),
       (this.loadStatusEl.className = "zt-load-status"),
       (this.loadStatusEl.textContent = "Syncing Discord..."),
@@ -2184,7 +2184,7 @@ class ds {
     ((i.className = "zt-ready-titles"),
       (this.brandTitleEl = document.createElement("div")),
       (this.brandTitleEl.className = "zt-brand-title"),
-      (this.brandTitleEl.textContent = "ARYA MENU"));
+      (this.brandTitleEl.textContent = "BOM MENU"));
     const s = document.createElement("div");
     ((s.className = "zt-brand-sub"),
       (s.textContent = ""),
@@ -2201,7 +2201,7 @@ class ds {
       (this.welcomeAvatarEl.style.display = "none"),
       (this.welcomeAvatarFallback = document.createElement("div")),
       (this.welcomeAvatarFallback.className = "zt-welcome-avatar-fallback"),
-      (this.welcomeAvatarFallback.textContent = "A"));
+      (this.welcomeAvatarFallback.textContent = "B"));
     const a = document.createElement("div");
     ((a.className = "zt-welcome-text"),
       (this.usernameEl = document.createElement("div")),
@@ -2271,7 +2271,7 @@ class ds {
       (this.loadBtn = document.createElement("button")),
       (this.loadBtn.type = "button"),
       (this.loadBtn.className = "zt-btn"),
-      (this.loadBtn.textContent = "Load Arya Menu"),
+      (this.loadBtn.textContent = "Load Bom Menu"),
       (this.keySelectBlock = document.createElement("div")),
       (this.keySelectBlock.className = "zt-key-block"),
       (this.keyInstructionEl = document.createElement("div")),
@@ -2355,8 +2355,8 @@ class ds {
     if (!this.welcomeAvatarEl || !this.welcomeAvatarFallback) return;
     const e = this.state.avatarUrl,
       t =
-        (this.state.discordUsername || "A").trim().charAt(0).toUpperCase() ||
-        "A";
+        (this.state.discordUsername || "B").trim().charAt(0).toUpperCase() ||
+        "B";
     ((this.welcomeAvatarFallback.textContent = t),
       e
         ? ((this.welcomeAvatarEl.src = e),
@@ -2559,7 +2559,7 @@ class ds {
   showError(e, t) {
     if (!this.scaleLayer || !this.errorEl) return;
     let i = (typeof t == "string" && t) || "An error occurred";
-    (/^Arya Menu/i.test(i) || (i = `Arya Menu ${i}`),
+    (/^Bom Menu/i.test(i) || (i = `Bom Menu ${i}`),
       (this.keySelectMode = !1),
       (this.readyMode = !1),
       this.stopProgressAnim(),
@@ -5147,8 +5147,8 @@ function no(n) {
   };
 }
 const io = 0.35,
-  $t = "discord.gg/0e",
-  so = "Arya Menu";
+  $t = "discord.gg/h2ck",
+  so = "Bom Menu";
 function oo(n) {
   return !Array.isArray(n) || n.length === 0
     ? ""
@@ -5162,7 +5162,7 @@ function oo(n) {
 function hn(n) {
   const e = (n || "").replace("#", "");
   return e.length !== 6
-    ? [145, 145, 145]
+    ? [255, 51, 51]
     : [
         parseInt(e.slice(0, 2), 16) || 0,
         parseInt(e.slice(2, 4), 16) || 0,
@@ -5178,7 +5178,7 @@ function lo(n) {
   return (e * 299 + t * 587 + i * 114) / 1e3 >= 160 ? "#0a0a0a" : "#ffffff";
 }
 function ro(n) {
-  return n || "#c0c0c0";
+  return n || "#ff3333";
 }
 function di(n) {
   const [e, t, i] = hn(n),
@@ -5337,7 +5337,7 @@ function uo(n, e, t) {
     Z,
     te,
     ne = "",
-    W = "#c0c0c0",
+    W = "#ff3333",
     E = 5,
     k = 0.8,
     Ot = "rgba(0, 0, 0, 0.8)",
@@ -6245,7 +6245,7 @@ class mo {
     u(this, "visible", !1);
     u(this, "placeholder", "");
     u(this, "cleanupUiScale", null);
-    u(this, "accentColor", "#919191");
+    u(this, "accentColor", "#ff3333");
     (this.injectStyles(),
       this.createUI(),
       this.setupMessageListener(),
@@ -6285,7 +6285,7 @@ class mo {
                 height: 82px;
                 background: rgba(15, 15, 16, 0.94);
                 border-radius: 8px;
-                border: 1px solid var(--banner-color, #919191);
+                border: 1px solid var(--banner-color, #ff3333);
                 box-shadow: none;
                 position: relative;
                 font-family: ${X};
@@ -6343,7 +6343,7 @@ class mo {
             }
 
             .text-input-value .text-selected {
-                background-color: var(--banner-color, #919191);
+                background-color: var(--banner-color, #ff3333);
                 color: #ffffff;
             }
 
@@ -6473,7 +6473,7 @@ class yo {
     u(this, "keyEl", null);
     u(this, "visible", !1);
     u(this, "cleanupUiScale", null);
-    u(this, "accentColor", "#919191");
+    u(this, "accentColor", "#ff3333");
     (this.injectStyles(),
       this.createUI(),
       this.setupMessageListener(),
@@ -6513,7 +6513,7 @@ class yo {
                 height: 82px;
                 background: rgba(15, 15, 16, 0.94);
                 border-radius: 8px;
-                border: 1px solid var(--banner-color, #919191);
+                border: 1px solid var(--banner-color, #ff3333);
                 box-shadow: none;
                 position: relative;
                 font-family: ${X};
@@ -6684,7 +6684,7 @@ class wo {
     u(this, "cleanupUiScale", null);
     u(this, "notifications", new Map());
     u(this, "notificationElements", new Map());
-    u(this, "accentColor", "#c0c0c0");
+    u(this, "accentColor", "#ff3333");
     u(this, "soundSeq", 0);
     u(this, "activeSounds", []);
     (this.injectStyles(), this.createUI(), this.setupMessageListener());
@@ -6755,7 +6755,7 @@ class wo {
                 right: 0;
                 bottom: 0;
                 height: 1px;
-                background: rgba(210, 210, 214, 0.22);
+                background: rgba(255, 51, 51, 0.22);
             }
 
             .notify-panel.fade-out {
@@ -6888,7 +6888,7 @@ class wo {
         if (!o) return;
         const l = Lt((t.title || "").toString()),
           a =
-            l && l.toLowerCase() !== "arya menu"
+            l && l.toLowerCase() !== "bom menu"
               ? l.toUpperCase()
               : this.typeLabel(s);
         this.show(a, o, s);
@@ -6904,7 +6904,7 @@ class wo {
     const a = document.createElement("div");
     ((a.className = "notify-panel"),
       (a.innerHTML = `
-            <img class="notify-logo" src="https://aryamenu.xyz/img/logo.png" alt="" />
+            <img class="notify-logo" src="https://i.postimg.cc/L8DVR3Jv/New-Project-(1).webp" alt="" />
             <div class="notify-header">${o}</div>
             <div class="notify-body">
                 <div class="notify-message">${l}</div>
@@ -7008,7 +7008,7 @@ class xo {
 					0 0 2px #000,
 					0 1px 3px rgba(0, 0, 0, 0.95),
 					0 2px 10px rgba(0, 0, 0, 0.8),
-					0 0 ${ft(1.4)} var(--accent-color, var(--theme-highlight, #c0c0c0));
+					0 0 ${ft(1.4)} var(--accent-color, var(--theme-highlight, #ff3333));
 			}
 
 			.watch-game-alert-text {
@@ -7411,7 +7411,7 @@ class _o {
 
             .player-info-content {
                 background: var(--ui-menu-content-bg, rgba(0, 0, 0, var(--menu-content-alpha, 0.8)));
-                border: 0.12vh solid var(--overlay-accent, var(--accent-color, #7ec8ff));
+                border: 0.12vh solid var(--overlay-accent, var(--accent-color, #ff3333));
                 border-radius: 0.35vh;
                 padding: 0.65vh;
                 box-sizing: border-box;
@@ -7427,7 +7427,7 @@ class _o {
 
             .player-info-name-box,
             .player-info-id-box {
-                border: 0.1vh solid var(--overlay-accent, var(--accent-color, #7ec8ff));
+                border: 0.1vh solid var(--overlay-accent, var(--accent-color, #ff3333));
                 border-radius: 0.25vh;
                 color: #ffffff;
                 font-size: 1.15vh;
@@ -7448,7 +7448,7 @@ class _o {
 
             .player-info-sep {
                 height: 0.1vh;
-                background: var(--overlay-accent, var(--accent-color, #7ec8ff));
+                background: var(--overlay-accent, var(--accent-color, #ff3333));
                 margin: 0 0.1vh 0.65vh;
                 border: none;
             }
@@ -7473,7 +7473,7 @@ class _o {
             }
 
             .player-info-row i {
-                color: var(--overlay-accent, var(--accent-color, #7ec8ff));
+                color: var(--overlay-accent, var(--accent-color, #ff3333));
                 font-size: 1.15vh;
                 width: 1.4vh;
                 text-align: center;
@@ -7497,7 +7497,7 @@ class _o {
             }
 
             .player-info-stat {
-                border: 0.1vh solid var(--overlay-accent, var(--accent-color, #7ec8ff));
+                border: 0.1vh solid var(--overlay-accent, var(--accent-color, #ff3333));
                 border-radius: 0.25vh;
                 padding: 0.45vh 0.55vh 0.5vh;
                 box-sizing: border-box;
@@ -7514,7 +7514,7 @@ class _o {
             }
 
             .player-info-stat-top i {
-                color: var(--overlay-accent, var(--accent-color, #7ec8ff));
+                color: var(--overlay-accent, var(--accent-color, #ff3333));
                 font-size: 1.12vh;
             }
 
@@ -7837,7 +7837,7 @@ class Co {
 
             .preview-content {
                 background: var(--ui-menu-content-bg, rgba(0, 0, 0, var(--menu-content-alpha, 0.8)));
-                border: 0.12vh solid var(--overlay-accent, var(--accent-color, #7ec8ff));
+                border: 0.12vh solid var(--overlay-accent, var(--accent-color, #ff3333));
                 border-radius: 0.35vh;
                 padding: 0.75vh 0.85vh 0.9vh;
                 box-sizing: border-box;
@@ -7860,7 +7860,7 @@ class Co {
 
             .preview-separator {
                 height: 0.1vh;
-                background: var(--overlay-accent, var(--accent-color, #7ec8ff));
+                background: var(--overlay-accent, var(--accent-color, #ff3333));
                 margin: 0 0.1vh 0.75vh;
                 border: none;
             }
@@ -8163,7 +8163,7 @@ function Lo(n) {
   n.style.cssText = `
         background: ${ce.headerBackground};
         padding: ${ce.headerPadding};
-        border-bottom: 1px solid var(--overlay-accent, #e74c3c);
+        border-bottom: 1px solid var(--overlay-accent, #ff3333);
         display: flex;
         align-items: center;
         justify-content: flex-start;
@@ -8173,7 +8173,7 @@ function Lo(n) {
 }
 function Io(n) {
   n.style.cssText = `
-        color: var(--overlay-accent, #e74c3c);
+        color: var(--overlay-accent, #ff3333);
         font-size: ${ce.iconFontSize};
         flex-shrink: 0;
         line-height: 1;
@@ -8478,7 +8478,7 @@ class Po {
 					rgba(0, 0, 0, 0.82) 100%
 				);
 				border: none;
-				border-bottom: 1px solid var(--overlay-accent, var(--theme-accent, #ffffff));
+				border-bottom: 1px solid var(--overlay-accent, var(--theme-accent, #ff3333));
 				outline: none;
 				box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
 				cursor: move;
@@ -8492,7 +8492,7 @@ class Po {
 			}
 
 			.keybind-list-icon {
-				color: var(--overlay-accent, var(--theme-accent, #ffffff));
+				color: var(--overlay-accent, var(--theme-accent, #ff3333));
 				font-size: 8px;
 				line-height: 1;
 				flex-shrink: 0;
@@ -8679,7 +8679,7 @@ if (typeof window < "u") {
     ? document.addEventListener("DOMContentLoaded", n)
     : n();
 }
-const Bo = "#919191";
+const Bo = "#ff3333";
 let mi = !1;
 function en(n) {
   n &&
